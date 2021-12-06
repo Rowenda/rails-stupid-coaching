@@ -1,0 +1,27 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+  background-color: gray;
+  h1, h2 {
+    text-align: center;
+    background-color: azure;
+    text-shadow: 2px 2px 4px gray;
+  }
+  article {
+    background-color: whitesmoke;
+  }
+  #ask-form {
+    border: 2px black solid;
+    text-align: center;
+    height: 6rem;
+  }
+  .container {
+    width: 50rem;
+    margin: 0 auto;
+  }
+  section {
+    text-align: center;
+    margin-top: 2rem;
+  }
+}
