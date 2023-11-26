@@ -9,19 +9,55 @@ body {
     text-shadow: 2px 2px 4px gray;
   }
   article {
-    background-color: whitesmoke;
-  }
-  #ask-form {
-    border: 2px black solid;
-    text-align: center;
-    height: 6rem;
+    height: 66vh;
+    background-image: url("background.png");
+    background-size: cover;
   }
   .container {
-    width: 50rem;
+    width: 66vw;
     margin: 0 auto;
   }
-  section {
+
+  section#answer {
+    height: 18vh;
+    width: 24vw;
+    margin: auto;
+    background-color: white;
+    border-radius: 40%;
     text-align: center;
-    margin-top: 2rem;
+    p { margin-top: 3vh;}
+  }
+
+  section#ask-form{
+    text-align: center;
+    height: 6vh;
+    min-height: 20vh;
+    margin-top: 2vh;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    margin: 2vh auto;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  p {
+    margin: auto;
+    width: 14vw;
+    background-color: white;
+    border-radius: 33%;
+  }
+
+  input {
+    height: 8vh;
+    border-radius: 36%;
+
+  }
+
+  input.submit {
+    background-color: azure;
+    font-weight: bold;
   }
 }
